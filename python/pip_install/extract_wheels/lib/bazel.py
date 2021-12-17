@@ -106,6 +106,7 @@ def generate_build_file_contents(
         "**/__pycache__/**",
         "**/*.py",
         "**/*.pyc",
+        "**/python_deps_pip_log.txt",
         f"{WHEEL_ENTRY_POINT_PREFIX}*.py",
         "**/* *",
         "BUILD.bazel",
